@@ -2,6 +2,15 @@
 Páginas de login e cadastro feitas com o [Laravel 9](https://laravel.com/docs/9.x/releases). Autenticação e verificação por email implementadas manualmente, sem uso dos *starter kits*.
 ## Requerimentos
 - [MailHog](https://github.com/mailhog/MailHog#installation).
+## .env
+```bash
+MAIL_MAILER=smtp
+MAIL_HOST=0.0.0.0
+MAIL_PORT=1025
+MAIL_USERNAME=null
+MAIL_PASSWORD=null
+MAIL_ENCRYPTION=null
+```
 ## Uso
 - `composer install`.
 - Configure o banco em `/.env` e migre com `artisan migrate`.
