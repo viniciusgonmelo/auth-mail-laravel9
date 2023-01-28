@@ -24,8 +24,8 @@ include config('view.paths.partials') . '/header.php';
         <?php else : ?>
           <input type="password" name="password" id="stacked-password" placeholder="Insira sua senha" value="<?php echo old('password') ?? '' ?>" />
         <?php endif; ?>
-        <label for="stacked-remember" class="pure-checkbox">
-          <input type="checkbox" name="remember" id="stacked-remember" /> Lembrar de mim
+        <label for="stacked-remember-me" class="pure-checkbox">
+          <input type="checkbox" name="remember_me" id="stacked-remember-me" value="1" /> Lembrar de mim
         </label>
         <button type="submit" class="pure-button pure-button-primary">Login</button>
         <br>
