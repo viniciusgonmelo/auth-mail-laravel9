@@ -1,6 +1,5 @@
 # Cadastro e verificação por email com o Laravel 9
-Páginas de login e cadastro feitas com o [Laravel 9](https://laravel.com/docs/9.x/releases). Autenticação e verificação por email implementadas manualmente, sem uso dos *starter kits*.
-Tradução das mensagens do validador: https://github.com/lucascudo/laravel-pt-BR-localization.
+Páginas de login e cadastro feitas com o [Laravel 9](https://laravel.com/docs/9.x/releases). Autenticação e verificação por email implementadas manualmente, sem uso dos *starter kits*.<br>Tradução das mensagens do validador: https://github.com/lucascudo/laravel-pt-BR-localization.
 ## Requerimentos
 - [MailHog](https://github.com/mailhog/MailHog#installation).
 ## .env
