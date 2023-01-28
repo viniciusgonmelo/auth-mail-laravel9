@@ -17,3 +17,5 @@ MAIL_ENCRYPTION=null
 - Instale e inicie o `MailHog`: https://github.com/mailhog/MailHog#installation.
 - Sirva com `artisan serve`.
 - Depois do cadastro, para realizar login, verifique a conta através do cliente do `MailHog` (`http://0.0.0.0:8025/`)
+##
+![ezgif com-gif-maker (4)](https://user-images.githubusercontent.com/97701096/215248149-3a08e647-0201-4b12-b390-bb4bffa999a2.gif)
