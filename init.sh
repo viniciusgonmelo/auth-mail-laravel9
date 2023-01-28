@@ -7,4 +7,5 @@ fi
 
 composer install
 
+./artisan migrate
 ./artisan serve
